@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# 2024년도 기초 캡스톤 Web 개발 파트를 위한 연습 Repository
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+이 저장소는 2024년도 기초 캡스톤 Web 개발 파트를 위한 연습을 위한 Repository입니다.
 
-## Available Scripts
+## 1. 플러그인 설명
 
-In the project directory, you can run:
+- **React**: 사용자 인터페이스를 만들기 위한 JavaScript 라이브러리입니다.
+- **Tailwind CSS**: 사용자 정의 가능한 CSS 프레임워크로, 반응형 및 유연한 디자인을 쉽게 구현할 수 있습니다.
 
-### `npm start`
+## 2. React 디렉토리 구조
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **node_modules**: 프로젝트에 필요한 패키지와 모듈이 저장되는 디렉토리
+- **public**: 정적 파일을 포함하여 웹 애플리케이션에 필요한 자원이 위치하는 디렉토리
+- **asset**: 이미지, 폰트 등의 자원을 저장하는 디렉토리
+- **component**: React 컴포넌트들이 위치하는 디렉토리
+- **page**: React 애플리케이션의 페이지들이 위치하는 디렉토리
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 3. React 실행 방법
 
-### `npm test`
+프로젝트를 실행하기 위해서는 다음 명령어를 실행 : 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+npm start
+```
 
-### `npm run build`
+## 4. Module Not Found 에러 발생 시
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. 프로젝트 루트 디렉토리에서 다음 명령어를 실행하여 필요한 모듈을 설치 : 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm install [모듈명]
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+2. 필요한 모듈이 설치되었는지 확인하고, 이후에 다시 프로젝트를 실행
